@@ -1,0 +1,26 @@
+# Never commit packaged apps or build output.
+*.apk
+*.aab
+*.apks
+*.ipa
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
+# Local IDE, SDK paths, signing credentials, and secrets.
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+local.properties
+key.properties
+*.jks
+*.keystore
+.env
+.env.*
+*.log
+.DS_Store
